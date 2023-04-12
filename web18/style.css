@@ -1,0 +1,16 @@
+
+.box{
+    background-image: url(./pic.jpg);
+    width: 1200px;
+    height: 450px;
+    margin: auto;
+    writing-mode: vertical-rl;
+    box-sizing: border-box;
+    padding:200px 500px 0 0;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.box p {
+    margin-block-start: 50px;
+}

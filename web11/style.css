@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.box{
+    background-image: url(./box.png);
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+a{
+    display: block;
+    background-image: url(./btn01.png);
+    /*width: 230px*//*有寫width會相加，沒寫會相減*/
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    text-indent: 85px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+/*盒子實際寬度:
+width + padding left&right + border left&right*/
+/*盒子實際高度:
+height + padding top&bottom + border top&bottom*/
+/*padding影響盒子，text-indent／text-align影響文字*/
+
+.box a:hover{
+    background-image: url(./btn02.png);
+    color: blue;
+}

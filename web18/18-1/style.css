@@ -1,0 +1,18 @@
+
+
+.box1{
+    background-color: antiquewhite;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    writing-mode: vertical-rl;
+}
+
+.box1 p{
+    margin-block-start: 10px;
+    font-size: 30px;
+}
+
+.box2{
+    background-color: rgb(97, 97, 177);
+}

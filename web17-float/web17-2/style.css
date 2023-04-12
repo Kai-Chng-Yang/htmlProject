@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.header h1{
+    position:relative;
+    
+}
+
+.header ul{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.header ul li{
+
+}
+
+.header ul li a{
+
+}
+
+
+

@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(255, 57, 31);
+}
+
+/*
+a:link{
+    color:aqua;
+    font-size: 30px;
+}
+
+a:visited{
+    color: #0d0b69;
+
+}
+
+a:hover{
+    color: #57d38f;
+}
+
+a:active{
+    color:blanchedalmond
+} 
+*/
+
+html, body{
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a{
+    color: aqua;
+}
+
+a:hover{
+    color: #57d38f;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+p{
+    padding: 20px;
+}

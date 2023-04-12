@@ -1,0 +1,9 @@
+body{
+    background-color: beige;
+}
+div{
+    background-color: violet;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}

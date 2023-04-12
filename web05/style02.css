@@ -1,0 +1,18 @@
+a{
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    width: 200px;
+    height: 60px;
+    display:block;
+    text-align: center;
+    line-height: 60px;
+    color: #b35252;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px black;
+    background:repeating-linear-gradient(to right, yellow 5px, pink 10px);
+}
+
+a:hover{
+    background: darkblue
+    color: yellowgreen
+}

@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.header{
+    background-image: url(./banner.jpg);
+    width: 550px;
+    height: 170px;
+    margin: 0 auto;
+    padding-left: 650px;
+    padding-top: 180px;
+}
+

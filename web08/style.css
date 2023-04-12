@@ -1,0 +1,16 @@
+*{
+}
+body{
+    background-image: url(./1920x1200.jpg);
+    background-attachment: fixed;
+}
+
+div{
+    width: 1600px;
+    margin: 0 auto;
+    background-color: rgba(127, 255, 212,0.5);
+    background-image: url(./bg06.png),url(./bg07.png),url(./bg08.png);
+    background-repeat: repeat-x, no-repeat, no-repeat;
+    background-position: left top, right top, left bottom ;
+    border: yellow 3px solid;
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*
+ul {padding-left: 40px}
+li {list-style: circle;}
+a {}
+*/
+ul{
+    padding-left :0px;
+    background-color: rgba(196, 129, 41, 0.582);
+    margin: 10px;
+}
+
+li{
+    list-style-type: none;
+    background-color: rgba(0, 255, 34, 0.664);
+    float: left;
+    margin: 10pt;
+}
+
+li a{
+    display:block; /*按鈕*/
+    width: 200px; 
+    height: 60px;
+    line-height: 50px;
+    text-align: center; 
+    text-decoration: none; /*無底線*/
+    background-color: rgb(221, 146, 34);
+    margin-right: 10px;
+}
+li a:hover{
+    color: black;
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-image: url(./banner.jpg);
+    width: 450px;
+    height: 250px;
+    margin: auto;
+    padding-left: 650px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+h1{
+    background-color: rgba(129, 178, 221, 0.562);
+    margin-bottom: 30px;
+}
+
+p{
+    background-color: rgba(127, 255, 212, 0.993);
+}

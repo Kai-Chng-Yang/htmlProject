@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    background-color: #f36d6d;
+    width: 600px;
+    height: 400px;
+}
+
+h2{
+    background-color: #cbf766;
+    width: 400px;
+    height: 150px;
+}
+
+p{
+    background-color: fuchsia;
+    width: 400px;
+    line-height: 30px;
+}
+
+a{
+    background-color: aquamarine;
+    width: 150px;
+    height: 300px;
+    display: block;
+}
