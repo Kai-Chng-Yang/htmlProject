@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	}
+body{
+	background-color:#CCC;}
+h1{
+	font-size:60px;
+	text-align:center;
+	margin:10px;}
+.wrapper{
+	background-color:#FFF;
+	width:1200px;
+	margin:20px auto;
+	padding:20px;
+	display:flex;
+	justify-content:space-around;
+	font-size:20px;
+	}
+h2{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: normal;
+	text-align: center;
+}
+h3{
+	font-family: 'Dancing Script', cursive;
+	vertical-align: middle;
+	text-align: center;
+}
+
+img{
+	width: 1200px;
+	height: 1200px;
+}
+
+.box{
+	width:30%;
+	padding:20px;
+	box-sizing:border-box;
+	border:#333 3px solid;
+	border-radius:20px;
+	}
+/*==============================*/
+.box1{
+	background-color:#F90;
+	}
+
+.box1 b {
+	font-family: Entypo;
+	font-size: 60px;
+	font-weight: normal;
+	vertical-align: middle;
+	margin-right: 10px;
+	color: #9C0;
+	text-shadow: 2px 2px 0 coral;
+}
+/*==============================*/
+.box2{
+	background-color:#9C0;
+}
+
+.box2 ul {
+	list-style: none;
+}
+
+.box2 i{
+	font-family: sosa;
+	font-weight: normal;
+}
+/*==============================*/	
+.box3{
+	background-color:#09F;
+}
+
+.box3 ul{}
+.box3 li{
+	list-style: none;
+}
+
+.box3 li a{
+	display: block;
+	background-color: rgb(233, 37, 184);
+	width: 160px;
+	height: 60px;
+	color:#FFF;
+	margin-bottom: 10px;
+	text-decoration:  none;
+	line-height: 60px;
+	text-indent: 20px;
+}
+
+.box3 li a:hover{
+	background-color: brown;
+}
+
+.box3 li a:hover span {
+	background-color: aquamarine;
+
+}
+
+.box3 span{
+	font-family: sosa;
+	margin-right: 5px;
+}
+
+
+	
+/*======字型嵌入======*/
+@font-face {
+	/*自訂字型名稱*/
+	font-family: 'Entypo';
+	/*字型檔名*/
+	src: url(sosa-regular-webfont.ttf);
+}
+
+@font-face {
+	font-family: sosa;
+	src: url(sosa-regular-webfont.woff);
+}
+
+
+
+
