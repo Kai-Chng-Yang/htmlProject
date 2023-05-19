@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+}
+
+.container {
+    background-color: cornflowerblue;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(./banner.png);
+    width: 1200px;
+    height: 250px;
+    position: relative;
+}
+
+.header h1 {
+    padding-left: 300px;
+    padding-top: 50px;
+    transform:
+        /*rotate(deg)旋轉*/
+        /*scale()縮放*/
+        /*skewY(10deg)傾斜*/
+        translate(20px,20px)/*位移*/
+}
+
+.header h1 img {}
+
+.nav {
+
+    width: 200px;
+    float: left;
+}
+
+.nav ul {}
+
+.nav li {}
+
+.nav li a {}
+
+.nav li a:hover {}
+
+.content {
+    background-color: fuchsia;
+    width: 1000px;
+    float: right;
+}
+
+.content .box {
+    display: flex;
+}
+
+.content h3 {
+    clear: both;
+}
+
+.content p {}
+
+.content img {
+    float: left;
+}
+
+.footer {
+    background-color: rgb(87, 194, 194);
+    clear: both;
+}
+
+.footer h2 {}
+
+.footer h4 {}
