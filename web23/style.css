@@ -1,69 +1,64 @@
-* {
-    padding: 0px;
-    margin: 0px;
+*{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-
-html,
-body {
-    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+html,body{
+    font-family: Arial, Helvetica,"微軟正黑體", sans-serif;
     background-image: url(share/bg.gif);
-}
 
-.container {
+}
+.container{
     background-color: #fff;
     width: 1200px;
     margin: 0 auto;
 }
 
-.header {
+.header{
     background-color: #ffc02b;
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
-
-.header h1 {}
-.header ul {
+.header h1{}
+.header ul{
     display: flex;
     align-items: center;
     list-style: none;
 }
-.header li {}
-.header li a {
+.header li{}
+.header li a{
     margin: 3px;
 }
-.header a:hover {}
+.header li a:hover{}
 
-.banner {}
-.banner img {
+.banner{}
+.banner img{
     vertical-align: bottom;
 }
-
-.box {
+.box{
     display: flex;
 }
-
 .nav{
-    background-color: #6d063f;
+    background-color: #df6e17;
     width: 200px;
     padding: 20px;
 }
-
 .nav ul {}
 .nav li {
     list-style: none;
-    
 }
-.nav li a{
+.nav li a {
     display: block;
     height: 60px;
     border-bottom: #fff 1px dashed;
     line-height: 60px;
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     text-align: center;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.078);
+
+
 }
 
 li:last-child a{
@@ -72,20 +67,17 @@ li:last-child a{
 
 .nav li a:hover {}
 
-.content {
-    background-color: rgb(35, 37, 143);
-    color: azure;
+.content{
+    background-color: #e8dcb4;
     width: 1000px;
     padding: 20px;
 }
 
-.footer {
-    background-color: rgb(70, 66, 58);
-    color: #fff;
+.footer{
+    background-color: #3d3d3d;
+    color: #FFF;
     text-align: center;
     padding: 20px;
 }
-
-.footer h2 {}
-
-.footer h4 {}
+.footer h2{}
+.footer h4{}
