@@ -1,19 +1,38 @@
-.All{
+.All {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.pbox{
+
+a .pbox{
     background-color: #b86868;
-    padding: 20px;
+    padding: 25px;
     margin: 20px 0;
     text-align: center;
+    transition: all .5s;
+
 }
-.pbox img{
+
+a .pbox:hover{
+    transform: translate(-4px,-4px);
+    box-shadow: 2px 2px 5px #333;
+}
+
+.pbox img {
     border: none;
     border-radius: 0;
     box-shadow: none;
-
 }
-.pbox h4{}
-.pbox p{text-align: center;} 
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a .pbox h4 {}
+
+a .pbox p {}
+
+
+
+
