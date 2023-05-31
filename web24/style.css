@@ -22,8 +22,8 @@ body {
 .header h3 {
     position: absolute;
     right: 30px;
-        top: 30px;
-        display: none;
+    top: 30px;
+    display: none;
 }
 
 .header ul {
@@ -195,6 +195,7 @@ body {
         border-radius: 50%;
         text-align: center;
         line-height: 30px;
+
 
     }
 
